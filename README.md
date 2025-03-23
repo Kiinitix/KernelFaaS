@@ -1,5 +1,7 @@
 # **KernelFaaS**
 
+Blog: https://kiiocity.wordpress.com/2025/03/23/breaking-serverless-limits-running-functions-directly-in-the-kernel-with-ebpf/
+
 KernelFaaS is a high-performance serverless execution layer that runs functions directly inside the Linux kernel using eBPF. Traditional serverless platforms like AWS Lambda introduce delays due to cold starts, virtualization, and user-space overhead. KernelFaaS eliminates these bottlenecks by executing functions at the kernel level, reducing execution time to microseconds.
 
 This approach is useful for applications that require near-instant response times, such as high-frequency trading, real-time fraud detection, and cybersecurity threat mitigation.
